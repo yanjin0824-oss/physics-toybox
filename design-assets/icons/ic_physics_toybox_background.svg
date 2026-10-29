@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+<g id="background">
+<path d="M0.00000,12.00000a12.00000,12.00000 0 1,0 24.00000,0a12.00000,12.00000 0 1,0 -24.00000,0Z" fill="#DEEAF3"/>
+<path d="M4.26562,16.57031L12.00000,18.98438L19.73438,16.57031L19.73438,17.13281L12.00000,19.54688L4.26562,17.13281Z" fill="#425B77"/>
+<path d="M4.26562,16.57031L12.00000,14.15625L19.73438,16.57031L12.00000,18.98438Z" fill="#718DA9"/>
+<path d="M6.19922,15.96680L13.93359,18.38086" fill="none" stroke="#90A8BF" stroke-width="0.09375"/>
+<path d="M17.80078,15.96680L10.06641,18.38086" fill="none" stroke="#90A8BF" stroke-width="0.09375"/>
+<path d="M8.13281,15.36328L15.86719,17.77734" fill="none" stroke="#90A8BF" stroke-width="0.09375"/>
+<path d="M15.86719,15.36328L8.13281,17.77734" fill="none" stroke="#90A8BF" stroke-width="0.09375"/>
+<path d="M10.06641,14.75977L17.80078,17.17383" fill="none" stroke="#90A8BF" stroke-width="0.09375"/>
+<path d="M13.93359,14.75977L6.19922,17.17383" fill="none" stroke="#90A8BF" stroke-width="0.09375"/>
+</g>
+</svg>

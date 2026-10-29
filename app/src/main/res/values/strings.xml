@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">物理玩具箱</string>
+    <string name="toybox_hint_ready">点击积木或场地发射</string>
+    <string name="toybox_hint_preparing">正在准备玩具箱…</string>
+    <string name="toybox_hint_error">场景暂不可用，点击重建重试</string>
+    <string name="toybox_stats">%1$d 次发射 · %2$d / 50 块倒下</string>
+    <string name="toybox_fire">发射</string>
+    <string name="toybox_rebuild">重建</string>
+    <string name="toybox_fire_description">发射炮弹</string>
+    <string name="toybox_rebuild_description">重建 50 块积木塔</string>
+</resources>

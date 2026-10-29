@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".platform.SpatialApplication"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_toybox_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_toybox_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhysicsToyboxTheme"
+        tools:targetApi="31">
+
+        <!-- VibeLab feature detection for the app's existing Mixed Stage. -->
+        <meta-data android:name="enable_vst" android:value="1" />
+
+        <!-- Override the SDK UI library's default; this app uses stable APIs. -->
+        <meta-data
+            android:name="pico.spatial.use_experimental_api"
+            android:value="0"
+            tools:replace="android:value" />
+
+        <activity
+            android:name=".platform.LaunchActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PhysicsToyboxTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Full Space with real environment visible through Mixed Stage. -->
+            <meta-data android:name="pico.spatial.stage.id" android:value="PhysicsToyboxMixed" />
+            <meta-data android:name="pico.spatial.stage.style" android:value="1" />
+            <meta-data android:name="pico.spatial.stage.immersion" android:value="0" />
+            <meta-data android:name="pico.spatial.stage.immersion_min" android:value="0" />
+            <meta-data android:name="pico.spatial.stage.immersion_max" android:value="0" />
+
+        </activity>
+
+        <meta-data android:name="icon.3d.list" android:resource="@array/icon_3d_list" />
+        <meta-data android:name="icon.sdf.list" android:resource="@array/icon_sdf_list" />
+    </application>
+
+</manifest>

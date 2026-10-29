@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icon_sdf_list">
+        <item>@drawable/ic_toybox_sdf_ball</item>
+        <item>@drawable/ic_toybox_sdf_blocks</item>
+        <item>@drawable/ic_toybox_sdf_background</item>
+    </array>
+    <array name="icon_3d_list">
+        <item>@drawable/ic_toybox_ball</item>
+        <item>@drawable/ic_toybox_blocks</item>
+        <item>@drawable/ic_toybox_background</item>
+    </array>
+</resources>

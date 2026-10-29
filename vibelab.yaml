@@ -1,0 +1,38 @@
+---
+app:
+  name: 物理玩具箱
+  slogan: 在真实空间发射炮弹，体验彩色积木倒塌与重建的乐趣
+  description: |-
+    物理玩具箱是一款面向 PICO 空间体验的互动应用。在保持真实环境可见的 Mixed Stage 中，彩色积木搭成一座由 50 块积木组成的六层金字塔，前方设有发射与重建操作区。你可以点击积木或场地发射炮弹，也可以使用“发射”按钮瞄准积木塔中心，观察积木受到撞击后倾倒、滑动和散落的过程。
+
+    积木与炮弹使用原生物理模拟，包含重力、碰撞和摩擦。炮弹根据当前头部位置确定发射起点，使点击目标与空间中的射击方向对应。界面实时显示发射次数和倒下的积木数量，便于观察每次操作带来的变化。点击“重建”即可清除炮弹并恢复完整的 50 块积木塔，继续尝试不同目标和连续发射。
+
+    应用提供中文名称、操作提示和无障碍按钮说明，适合用于空间交互演示、物理现象观察和轻松的积木破坏体验。
+  tags:
+  - 物理模拟
+  - 互动体验
+  - 混合现实
+  category: application
+  icon: assets/icon.jpg
+  landscape: assets/landscape.png
+  detail_images:
+  - assets/detail-1.png
+  - assets/detail-2.png
+  - assets/detail-3.png
+  - assets/detail-4.png
+  - assets/detail-5.png
+  videos:
+  - file: assets/demo.mp4
+    cover: assets/demo-cover.png
+version:
+  name: V1.0.0
+  notes: 首次发布物理玩具箱。提供 50 块彩色积木与原生物理碰撞；支持点击积木或场地发射，以及连续发射；提供一键重建和实时发射、倒塌计数；炮弹从当前头部位置发出并瞄准点击目标；完善重建按钮的指针输入处理和共享资源生命周期；应用名称、操作提示及无障碍按钮说明采用中文。
+build:
+  repo_url: https://github.com/yanjin0824-oss/physics-toybox
+  repo_visibility: public
+  tech_stack: android_spatial
+  ai_tool: Trae CLI
+  ai_model: GPT-6
+  features:
+  - mixed_reality
+  teammates: []

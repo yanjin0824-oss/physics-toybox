@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "size": 1024,
+  "sdf_ramp_px": 32,
+  "layers": [
+    {
+      "layer": "background",
+      "size": [
+        1024,
+        1024
+      ],
+      "opaque_pixels": 823592
+    },
+    {
+      "layer": "blocks",
+      "size": [
+        1024,
+        1024
+      ],
+      "opaque_pixels": 110672
+    },
+    {
+      "layer": "ball",
+      "size": [
+        1024,
+        1024
+      ],
+      "opaque_pixels": 21119
+    }
+  ]
+}
